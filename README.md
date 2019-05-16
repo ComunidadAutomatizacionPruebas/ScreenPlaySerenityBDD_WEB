@@ -2,7 +2,7 @@
 Un proyecto donde se ejemplifica el uso del patrón serenity 
 [screenplay](http://thucydides.info/docs/serenity-staging/#_serenity_and_the_screenplay_pattern) con cucumber y gradle.
 
-Las pruebas de este ejemplo se corren contra la página web de [Avianca](https://www.avianca.com/co/es/).
+Las pruebas de este ejemplo se corren contra la página web de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada).
 
 Por defecto, los tests corren en Chrome, así que es necesario tener instalada la última versión del chrome driver y 
 tenerla agregada como una variable en el path del sistema.
@@ -10,7 +10,7 @@ tenerla agregada como una variable en el path del sistema.
 ## Detalles generales de la implementación
 
 Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (user_interface)
-definidas en `com.devcognitio.screenplay.avianca`.
+definidas en `com.bancolombia.screenplay`.
 
 La estructura completa del proyecto es la siguiente:
 
